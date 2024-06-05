@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPACE TRASH LTD - Interstellar Waste Management</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #000033, #000000);
+            color: #00FF00;
+            font-family: 'Comic Sans MS', Arial, sans-serif;
+            text-align: center;
+        }
+        .marquee {
+            font-size: 20px;
+            color: #FFFF00;
+        }
+        .hit-counter {
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid #FFFFFF;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid #FFFFFF;
+            padding: 10px;
+        }
+        .hidden-music {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to SPACE TRASH LTD</h1>
+    <marquee class="marquee">Your Interstellar Waste Management Experts!</marquee>
+    <img src="banner.gif" alt="Space Trash Banner" width="600" height="100">
+    <p>Explore our services and discover the cosmic sounds of SPACE TRASH LTD!</p>
+    
+    <table>
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="about.html">About Us</a></td>
+            <td><a href="services.html">Services</a></td>
+            <td><a href="gallery.html">Gallery</a></td>
+            <td><a href="testimonials.html">Testimonials</a></td>
+            <td><a href="contact.html">Contact Us</a></td>
+            <td><a href="guestbook.html">Guestbook</a></td>
+        </tr>
+    </table>
+
+    <div class="hit-counter">
+        <p>Visitor Count:</p>
+        <img src="hit-counter.gif" alt="Hit Counter">
+    </div>
+
+    <!-- Hidden Music Section -->
+    <div class="hidden-music">
+        <audio id="hiddenTrack1" src="music/track1.mp3"></audio>
+        <audio id="hiddenTrack2" src="music/track2.mp3"></audio>
+    </div>
+
+    <script>
+        function playTrack(trackId) {
+            document.getElementById(trackId).play();
+        }
+    </script>
+</body>
+</html>
