@@ -1,0 +1,1 @@
+# SPACE-TRASH-LTD
